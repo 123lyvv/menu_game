@@ -7,6 +7,9 @@
 //
 
 #include "MenuScene.h"
+#include "GameScene.h"
+#include "SettingsScene.h"
+#include "HelpScene.h"
 
 USING_NS_CC;
 
@@ -43,19 +46,42 @@ bool MenuScene::init()
     //    you may modify it.
     
     // add a "close" icon to exit the progress. it's an autorelease object
-    CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
-                                                          "CloseNormal.png",
-                                                          "CloseSelected.png",
+    CCMenuItemImage *pHelpScene = CCMenuItemImage::create(
+                                                          "help.png",
+                                                          "help.png",
                                                           this,
-                                                          menu_selector(MenuScene::menuCloseCallback));
+                                                          menu_selector(MenuScene::goHelpScene));
+    CCMenuItemImage *pGameScene = CCMenuItemImage::create(
+                                                          "play.png",
+                                                          "play.png",
+                                                          this,
+                                                          menu_selector(MenuScene::goGameScene));
+    CCMenuItemImage *pSettingsScene = CCMenuItemImage::create(
+                                                          "settings.png",
+                                                          "settings.png",
+                                                          this,
+                                                          menu_selector(MenuScene::goSettingsScene));
     
-	pCloseItem->setPosition(ccp(origin.x + visibleSize.width - pCloseItem->getContentSize().width/2 ,
-                                origin.y + pCloseItem->getContentSize().height/2));
+    
+	pHelpScene->setPosition(ccp(origin.x + visibleSize.width - pHelpScene->getContentSize().width/2 ,
+                                origin.y + pHelpScene->getContentSize().height/2));
+    pGameScene->setPosition(ccp(origin.x + visibleSize.width - pGameScene->getContentSize().width/2 ,
+                                origin.y + pGameScene->getContentSize().height/2 + 100));
+    pSettingsScene->setPosition(ccp(origin.x + visibleSize.width - pSettingsScene->getContentSize().width/2 ,
+                                origin.y + pSettingsScene->getContentSize().height/2 + 200));
     
     // create menu, it's an autorelease object
-    CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
-    pMenu->setPosition(CCPointZero);
-    this->addChild(pMenu, 1);
+    CCMenu* pHelp = CCMenu::create(pHelpScene, NULL);
+    pHelp->setPosition(CCPointZero);
+    this->addChild(pHelp, 1);
+    
+    CCMenu* pGame = CCMenu::create(pGameScene, NULL);
+    pGame->setPosition(CCPointZero);
+    this->addChild(pGame, 1);
+    
+    CCMenu* pSettings = CCMenu::create(pSettingsScene, NULL);
+    pSettings->setPosition(CCPointZero);
+    this->addChild(pSettings, 1);
     
     /////////////////////////////
     // 3. add your codes below...
@@ -73,7 +99,7 @@ bool MenuScene::init()
     this->addChild(pLabel, 1);
     
     // add "MenuScene" splash screen"
-    CCSprite* pSprite = CCSprite::create("menuscene.png");
+    CCSprite* pSprite = CCSprite::create("menu.png");
     
     // position the sprite on the center of the screen
     pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
@@ -93,4 +119,19 @@ void MenuScene::menuCloseCallback(CCObject* pSender)
     
 //    CCDirector::sharedDirector()->replaceScene(ps);
     
+}
+
+void MenuScene::goHelpScene(CCObject* pSender)
+{
+    CCDirector::sharedDirector()->replaceScene(HelpScene::scene());
+}
+
+void MenuScene::goSettingsScene(CCObject* pSender)
+{
+    CCDirector::sharedDirector()->replaceScene(SettingsScene::scene());
+}
+
+void MenuScene::goGameScene(CCObject* pSender)
+{
+    CCDirector::sharedDirector()->replaceScene(GameScene::scene());
 }

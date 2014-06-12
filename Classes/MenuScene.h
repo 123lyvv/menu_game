@@ -24,6 +24,12 @@ public:
     // a selector callback
     void menuCloseCallback(CCObject* pSender);
     
+    void goHelpScene(CCObject* pSender);
+    
+    void goSettingsScene(CCObject*);
+    
+    void goGameScene(CCObject*);
+    
     // implement the "static node()" method manually
     CREATE_FUNC(MenuScene);
 };

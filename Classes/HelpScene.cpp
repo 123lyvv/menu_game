@@ -7,6 +7,7 @@
 //
 
 #include "HelpScene.h"
+#include "MenuScene.h"
 
 USING_NS_CC;
 
@@ -63,14 +64,14 @@ bool HelpScene::init()
     // add a label shows "Hello World"
     // create and initialize a label
     
-    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
+//    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
     
     // position the label on the center of the screen
-    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
-                            origin.y + visibleSize.height - pLabel->getContentSize().height));
+//    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
+//                            origin.y + visibleSize.height - pLabel->getContentSize().height));
     
     // add the label as a child to this layer
-    this->addChild(pLabel, 1);
+//    this->addChild(pLabel, 1);
     
     // add "HelpScene" splash screen"
     CCSprite* pSprite = CCSprite::create("helpscene.png");
@@ -87,6 +88,6 @@ bool HelpScene::init()
 
 void HelpScene::menuCloseCallback(CCObject* pSender)
 {
-    //CCDirector::sharedDirector()->replaceScene(GameScene::scene());
+    CCDirector::sharedDirector()->replaceScene(MenuScene::scene());
     
 }

@@ -7,6 +7,7 @@
 //
 
 #include "SplashScene.h"
+#include "MenuScene.h"
 
 USING_NS_CC;
 
@@ -87,6 +88,6 @@ bool SplashScene::init()
 
 void SplashScene::menuCloseCallback(CCObject* pSender)
 {
-    //CCDirector::sharedDirector()->replaceScene(GameScene::scene());
+    CCDirector::sharedDirector()->replaceScene(MenuScene::scene());
     
 }

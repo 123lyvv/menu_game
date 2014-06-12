@@ -7,6 +7,7 @@
 //
 
 #include "SettingsScene.h"
+#include "MenuScene.h"
 
 USING_NS_CC;
 
@@ -87,7 +88,7 @@ bool SettingsScene::init()
 
 void SettingsScene::menuCloseCallback(CCObject* pSender)
 {
-    //CCDirector::sharedDirector()->replaceScene(GameScene::scene());
+    CCDirector::sharedDirector()->replaceScene(MenuScene::scene());
     
 //    CCScene* ps = CCTransitionFlipX::create(1, GameScene::scene());
     

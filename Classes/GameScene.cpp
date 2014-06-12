@@ -8,6 +8,7 @@
 
 #include "GameScene.h"
 #include "HelloWorldScene.h"
+#include "MenuScene.h"
 
 USING_NS_CC;
 
@@ -88,5 +89,5 @@ bool GameScene::init()
 
 void GameScene::menuCloseCallback(CCObject* pSender)
 {
-    CCDirector::sharedDirector()->replaceScene(HelloWorld::scene());
+    CCDirector::sharedDirector()->replaceScene(MenuScene::scene());
 }
