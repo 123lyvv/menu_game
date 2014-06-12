@@ -86,6 +86,16 @@ bool SplashScene::init()
 }
 
 
+void SplashScene::onEnterTransitionDidFinish() {
+    this->scheduleOnce(schedule_selector(SplashScene::gotoMenu), 3);
+}
+
+
+void SplashScene::gotoMenu(float dt) {
+    menuCloseCallback(NULL);
+}
+
+
 void SplashScene::menuCloseCallback(CCObject* pSender)
 {
     CCDirector::sharedDirector()->replaceScene(MenuScene::scene());

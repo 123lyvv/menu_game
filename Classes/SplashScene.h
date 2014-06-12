@@ -24,6 +24,10 @@ public:
     // a selector callback
     void menuCloseCallback(CCObject* pSender);
     
+    void onEnterTransitionDidFinish ();
+    
+    void gotoMenu(float dt);
+    
     // implement the "static node()" method manually
     CREATE_FUNC(SplashScene);
 };
