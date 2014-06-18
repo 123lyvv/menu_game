@@ -47,28 +47,30 @@ bool MenuScene::init()
     
     // add a "close" icon to exit the progress. it's an autorelease object
     CCMenuItemImage *pHelpScene = CCMenuItemImage::create(
-                                                          "help.png",
-                                                          "help.png",
+                                                          "btnHelp.png",
+                                                          "btnHelp.png",
                                                           this,
                                                           menu_selector(MenuScene::goHelpScene));
     CCMenuItemImage *pGameScene = CCMenuItemImage::create(
-                                                          "play.png",
-                                                          "play.png",
+                                                          "btnPlay.png",
+                                                          "btnPlay.png",
                                                           this,
                                                           menu_selector(MenuScene::goGameScene));
     CCMenuItemImage *pSettingsScene = CCMenuItemImage::create(
-                                                          "settings.png",
-                                                          "settings.png",
+                                                          "btnSetting.png",
+                                                          "btnSetting.png",
                                                           this,
                                                           menu_selector(MenuScene::goSettingsScene));
     
+    printf("origin: x: %f y:%f",origin.x, origin.y);
+    printf("visiblesize: w: %f h:%f",visibleSize.width, visibleSize.height);
     
-	pHelpScene->setPosition(ccp(origin.x + visibleSize.width - pHelpScene->getContentSize().width/2 ,
-                                origin.y + pHelpScene->getContentSize().height/2));
-    pGameScene->setPosition(ccp(origin.x + visibleSize.width - pGameScene->getContentSize().width/2 ,
-                                origin.y + pGameScene->getContentSize().height/2 + 100));
-    pSettingsScene->setPosition(ccp(origin.x + visibleSize.width - pSettingsScene->getContentSize().width/2 ,
-                                origin.y + pSettingsScene->getContentSize().height/2 + 200));
+	pHelpScene->setPosition(ccp(origin.x + visibleSize.width/2 -300,
+                                origin.y + pHelpScene->getContentSize().height/2 + 125));
+    pGameScene->setPosition(ccp(origin.x + visibleSize.width/2 ,
+                                origin.y + pGameScene->getContentSize().height/2 + 125));
+    pSettingsScene->setPosition(ccp(origin.x + visibleSize.width/2 + 300,
+                                origin.y + pSettingsScene->getContentSize().height/2 + 125));
     
     // create menu, it's an autorelease object
     CCMenu* pHelp = CCMenu::create(pHelpScene, NULL);
@@ -89,17 +91,17 @@ bool MenuScene::init()
     // add a label shows "Hello World"
     // create and initialize a label
     
-    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
-    
-    // position the label on the center of the screen
-    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
-                            origin.y + visibleSize.height - pLabel->getContentSize().height));
-    
-    // add the label as a child to this layer
-    this->addChild(pLabel, 1);
+//    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
+//    
+//    // position the label on the center of the screen
+//    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
+//                            origin.y + visibleSize.height - pLabel->getContentSize().height));
+//    
+//    // add the label as a child to this layer
+//    this->addChild(pLabel, 1);
     
     // add "MenuScene" splash screen"
-    CCSprite* pSprite = CCSprite::create("menu.png");
+    CCSprite* pSprite = CCSprite::create("bgMenu.jpg");
     
     // position the sprite on the center of the screen
     pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
@@ -110,16 +112,6 @@ bool MenuScene::init()
     return true;
 }
 
-
-void MenuScene::menuCloseCallback(CCObject* pSender)
-{
-    //CCDirector::sharedDirector()->replaceScene(GameScene::scene());
-    
-//    CCScene* ps = CCTransitionFlipX::create(1, GameScene::scene());
-    
-//    CCDirector::sharedDirector()->replaceScene(ps);
-    
-}
 
 void MenuScene::goHelpScene(CCObject* pSender)
 {

@@ -45,8 +45,8 @@ bool HelpScene::init()
     
     // add a "close" icon to exit the progress. it's an autorelease object
     CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
-                                                          "CloseNormal.png",
-                                                          "CloseSelected.png",
+                                                          "btnBack.png",
+                                                          "btnBack.png",
                                                           this,
                                                           menu_selector(HelpScene::menuCloseCallback));
     
@@ -74,7 +74,7 @@ bool HelpScene::init()
 //    this->addChild(pLabel, 1);
     
     // add "HelpScene" splash screen"
-    CCSprite* pSprite = CCSprite::create("helpscene.png");
+    CCSprite* pSprite = CCSprite::create("helpbg.jpg");
     
     // position the sprite on the center of the screen
     pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));

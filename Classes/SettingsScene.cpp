@@ -45,8 +45,8 @@ bool SettingsScene::init()
     
     // add a "close" icon to exit the progress. it's an autorelease object
     CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
-                                                          "CloseNormal.png",
-                                                          "CloseSelected.png",
+                                                          "btnBack.png",
+                                                          "btnBack.png",
                                                           this,
                                                           menu_selector(SettingsScene::menuCloseCallback));
     
@@ -64,17 +64,17 @@ bool SettingsScene::init()
     // add a label shows "Hello World"
     // create and initialize a label
     
-    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
-    
-    // position the label on the center of the screen
-    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
-                            origin.y + visibleSize.height - pLabel->getContentSize().height));
-    
-    // add the label as a child to this layer
-    this->addChild(pLabel, 1);
+//    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
+//    
+//    // position the label on the center of the screen
+//    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
+//                            origin.y + visibleSize.height - pLabel->getContentSize().height));
+//    
+//    // add the label as a child to this layer
+//    this->addChild(pLabel, 1);
     
     // add "SettingsScene" splash screen"
-    CCSprite* pSprite = CCSprite::create("settings_scene.png");
+    CCSprite* pSprite = CCSprite::create("settingbg.jpg");
     
     // position the sprite on the center of the screen
     pSprite->setPosition(ccp(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
