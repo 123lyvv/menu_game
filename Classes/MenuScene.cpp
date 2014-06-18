@@ -10,6 +10,7 @@
 #include "GameScene.h"
 #include "SettingsScene.h"
 #include "HelpScene.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
 
@@ -85,21 +86,6 @@ bool MenuScene::init()
     pSettings->setPosition(CCPointZero);
     this->addChild(pSettings, 1);
     
-    /////////////////////////////
-    // 3. add your codes below...
-    
-    // add a label shows "Hello World"
-    // create and initialize a label
-    
-//    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", 24);
-//    
-//    // position the label on the center of the screen
-//    pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
-//                            origin.y + visibleSize.height - pLabel->getContentSize().height));
-//    
-//    // add the label as a child to this layer
-//    this->addChild(pLabel, 1);
-    
     // add "MenuScene" splash screen"
     CCSprite* pSprite = CCSprite::create("bgMenu.jpg");
     
@@ -110,20 +96,34 @@ bool MenuScene::init()
     this->addChild(pSprite, 0);
     
     return true;
+    
+    //Music
+    playMusic();
 }
 
 
 void MenuScene::goHelpScene(CCObject* pSender)
 {
+    playClickSound();
     CCDirector::sharedDirector()->replaceScene(HelpScene::scene());
 }
 
 void MenuScene::goSettingsScene(CCObject* pSender)
 {
+    playClickSound();
     CCDirector::sharedDirector()->replaceScene(SettingsScene::scene());
 }
 
 void MenuScene::goGameScene(CCObject* pSender)
 {
+    playClickSound();
     CCDirector::sharedDirector()->replaceScene(GameScene::scene());
+}
+
+void MenuScene::playClickSound(){
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("click.wav");
+}
+
+void MenuScene::playMusic(){
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playBackgroundMusic("music.ogg", true);
 }

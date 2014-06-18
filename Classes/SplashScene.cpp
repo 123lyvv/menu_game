@@ -53,7 +53,7 @@ bool SplashScene::init()
 
 
 void SplashScene::onEnterTransitionDidFinish() {
-    this->scheduleOnce(schedule_selector(SplashScene::gotoMenu), 3);
+    this->scheduleOnce(schedule_selector(SplashScene::gotoMenu), 2);
 }
 
 

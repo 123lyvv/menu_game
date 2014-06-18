@@ -30,6 +30,10 @@ public:
     
     void goGameScene(CCObject*);
     
+    void playMusic();
+    
+    void playClickSound();
+    
     // implement the "static node()" method manually
     CREATE_FUNC(MenuScene);
 };
