@@ -10,20 +10,19 @@
 #include "HelloWorldScene.h"
 #include "MenuScene.h"
 
+
 USING_NS_CC;
 
 CCScene* GameScene::scene()
 {
-    // 'scene' is an autorelease object
-    CCScene *scene = CCScene::create();
-    
-    // 'layer' is an autorelease object
-    GameScene *layer = GameScene::create();
-    
-    // add layer as a child to scene
-    scene->addChild(layer);
-    
-    // return the scene
+    CCScene *scene = NULL;
+    do {
+        scene = CCScene::create();
+        CC_BREAK_IF(!scene);
+        GameScene *layer = GameScene::create();
+        CC_BREAK_IF(!layer);
+        scene->addChild(layer);
+    } while (0);
     return scene;
 }
 
@@ -90,4 +89,8 @@ bool GameScene::init()
 void GameScene::menuCloseCallback(CCObject* pSender)
 {
     CCDirector::sharedDirector()->replaceScene(MenuScene::scene());
+}
+
+void GameScene::startGame(){
+
 }

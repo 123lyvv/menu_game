@@ -27,6 +27,13 @@ public:
     
     // implement the "static node()" method manually
     CREATE_FUNC(GameScene);
+    
+    void startGame();
+    
+    void gotoTowersList();
+    
+    void gotoMapsList();
+    
 };
 
 #endif /* defined(__MenuPlay__GameScene__) */

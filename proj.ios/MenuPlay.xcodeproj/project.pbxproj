@@ -229,6 +229,107 @@
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		CA31B3B319549121006591E0 /* 003-Attack01.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B37C19549121006591E0 /* 003-Attack01.png */; };
+		CA31B3B419549121006591E0 /* aim.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B37D19549121006591E0 /* aim.png */; };
+		CA31B3B519549121006591E0 /* attac.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B37E19549121006591E0 /* attac.png */; };
+		CA31B3B619549121006591E0 /* bullet1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B37F19549121006591E0 /* bullet1.png */; };
+		CA31B3B719549121006591E0 /* bullet2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38019549121006591E0 /* bullet2.png */; };
+		CA31B3B819549121006591E0 /* buttlet_new.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38119549121006591E0 /* buttlet_new.png */; };
+		CA31B3B919549121006591E0 /* button_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38219549121006591E0 /* button_hl.png */; };
+		CA31B3BA19549121006591E0 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38319549121006591E0 /* button.png */; };
+		CA31B3BB19549121006591E0 /* CannonTurret.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38419549121006591E0 /* CannonTurret.png */; };
+		CA31B3BC19549121006591E0 /* choose.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38519549121006591E0 /* choose.png */; };
+		CA31B3BD19549121006591E0 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38619549121006591E0 /* CloseNormal.png */; };
+		CA31B3BE19549121006591E0 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38719549121006591E0 /* CloseSelected.png */; };
+		CA31B3BF19549121006591E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38819549121006591E0 /* Default.png */; };
+		CA31B3C019549121006591E0 /* effect1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38919549121006591E0 /* effect1.png */; };
+		CA31B3C119549121006591E0 /* effect2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38A19549121006591E0 /* effect2.png */; };
+		CA31B3C219549121006591E0 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38B19549121006591E0 /* enemy.png */; };
+		CA31B3C319549121006591E0 /* Enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38C19549121006591E0 /* Enemy1.png */; };
+		CA31B3C419549121006591E0 /* Enemy2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38D19549121006591E0 /* Enemy2.png */; };
+		CA31B3C519549121006591E0 /* Enemy3.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38E19549121006591E0 /* Enemy3.png */; };
+		CA31B3C619549121006591E0 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B38F19549121006591E0 /* fire.png */; };
+		CA31B3C719549121006591E0 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39019549121006591E0 /* fps_images-hd.png */; };
+		CA31B3C819549121006591E0 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39119549121006591E0 /* fps_images-ipadhd.png */; };
+		CA31B3C919549121006591E0 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39219549121006591E0 /* fps_images.png */; };
+		CA31B3CA19549121006591E0 /* FreezeTurret.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39319549121006591E0 /* FreezeTurret.png */; };
+		CA31B3CB19549121006591E0 /* health_bar_green.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39419549121006591E0 /* health_bar_green.png */; };
+		CA31B3CC19549121006591E0 /* health_bar_red.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39519549121006591E0 /* health_bar_red.png */; };
+		CA31B3CD19549121006591E0 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39619549121006591E0 /* HelloWorld.png */; };
+		CA31B3CE19549121006591E0 /* hero_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39719549121006591E0 /* hero_dead.png */; };
+		CA31B3CF19549121006591E0 /* hero_fast.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39819549121006591E0 /* hero_fast.png */; };
+		CA31B3D019549121006591E0 /* hero_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39919549121006591E0 /* hero_light.png */; };
+		CA31B3D119549121006591E0 /* hero_magic.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39A19549121006591E0 /* hero_magic.png */; };
+		CA31B3D219549121006591E0 /* hero_phy.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39B19549121006591E0 /* hero_phy.png */; };
+		CA31B3D319549121006591E0 /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39C19549121006591E0 /* hero.png */; };
+		CA31B3D419549121006591E0 /* hud.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39D19549121006591E0 /* hud.png */; };
+		CA31B3D519549121006591E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39E19549121006591E0 /* Icon.png */; };
+		CA31B3D619549121006591E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA31B39F19549121006591E0 /* Info.plist */; };
+		CA31B3D719549121006591E0 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A019549121006591E0 /* iTunesArtwork */; };
+		CA31B3D819549121006591E0 /* loadImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A119549121006591E0 /* loadImg.png */; };
+		CA31B3D919549121006591E0 /* MachineGunTurret.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A219549121006591E0 /* MachineGunTurret.png */; };
+		CA31B3DA19549121006591E0 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A319549121006591E0 /* map.jpg */; };
+		CA31B3DB19549121006591E0 /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A419549121006591E0 /* map1.png */; };
+		CA31B3DC19549121006591E0 /* map2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A519549121006591E0 /* map2.png */; };
+		CA31B3DD19549121006591E0 /* map3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A619549121006591E0 /* map3.jpg */; };
+		CA31B3DE19549121006591E0 /* map3.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A719549121006591E0 /* map3.png */; };
+		CA31B3DF19549121006591E0 /* map4.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A819549121006591E0 /* map4.png */; };
+		CA31B3E019549121006591E0 /* map5.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3A919549121006591E0 /* map5.png */; };
+		CA31B3E119549121006591E0 /* map6.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3AA19549121006591E0 /* map6.png */; };
+		CA31B3E219549121006591E0 /* popback.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3AB19549121006591E0 /* popback.png */; };
+		CA31B3E319549121006591E0 /* Range.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3AC19549121006591E0 /* Range.png */; };
+		CA31B3E419549121006591E0 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3AD19549121006591E0 /* rocket.png */; };
+		CA31B3E519549121006591E0 /* stars.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3AE19549121006591E0 /* stars.png */; };
+		CA31B3E619549121006591E0 /* TileMap0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3AF19549121006591E0 /* TileMap0.tmx */; };
+		CA31B3E719549121006591E0 /* TileMap1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3B019549121006591E0 /* TileMap1.tmx */; };
+		CA31B3E819549121006591E0 /* tmw_desert_spacing.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3B119549121006591E0 /* tmw_desert_spacing.png */; };
+		CA31B3E919549121006591E0 /* ui_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3B219549121006591E0 /* ui_frame.png */; };
+		CA31B4121954916D006591E0 /* abstacleDestroy.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3EA1954916D006591E0 /* abstacleDestroy.wav */; };
+		CA31B4131954916D006591E0 /* arrowTower.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3EB1954916D006591E0 /* arrowTower.wav */; };
+		CA31B4141954916D006591E0 /* backSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3EC1954916D006591E0 /* backSound.wav */; };
+		CA31B4151954916D006591E0 /* birdDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3ED1954916D006591E0 /* birdDeath.wav */; };
+		CA31B4161954916D006591E0 /* CaptainDead.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3EE1954916D006591E0 /* CaptainDead.wav */; };
+		CA31B4171954916D006591E0 /* castleHurtSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3EF1954916D006591E0 /* castleHurtSound.wav */; };
+		CA31B4181954916D006591E0 /* castleHurtSound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F01954916D006591E0 /* castleHurtSound2.wav */; };
+		CA31B4191954916D006591E0 /* chooseOB.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F11954916D006591E0 /* chooseOB.wav */; };
+		CA31B41A1954916D006591E0 /* confirm.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F21954916D006591E0 /* confirm.wav */; };
+		CA31B41B1954916D006591E0 /* doom.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F31954916D006591E0 /* doom.wav */; };
+		CA31B41C1954916D006591E0 /* flameMagic.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F41954916D006591E0 /* flameMagic.wav */; };
+		CA31B41D1954916D006591E0 /* freeDreadMagic.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F51954916D006591E0 /* freeDreadMagic.wav */; };
+		CA31B41E1954916D006591E0 /* freeflame.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F61954916D006591E0 /* freeflame.wav */; };
+		CA31B41F1954916D006591E0 /* frostMagic.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F71954916D006591E0 /* frostMagic.wav */; };
+		CA31B4201954916D006591E0 /* gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F81954916D006591E0 /* gameover.wav */; };
+		CA31B4211954916D006591E0 /* getgold.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3F91954916D006591E0 /* getgold.wav */; };
+		CA31B4221954916D006591E0 /* giantDead.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3FA1954916D006591E0 /* giantDead.wav */; };
+		CA31B4231954916D006591E0 /* iceMagicSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3FB1954916D006591E0 /* iceMagicSound.wav */; };
+		CA31B4241954916D006591E0 /* invadeCastleSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3FC1954916D006591E0 /* invadeCastleSound.wav */; };
+		CA31B4251954916D006591E0 /* magicElement.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3FD1954916D006591E0 /* magicElement.wav */; };
+		CA31B4261954916D006591E0 /* monsterDead1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3FE1954916D006591E0 /* monsterDead1.wav */; };
+		CA31B4271954916D006591E0 /* monsterDead2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B3FF1954916D006591E0 /* monsterDead2.wav */; };
+		CA31B4281954916D006591E0 /* monsterDead3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4001954916D006591E0 /* monsterDead3.wav */; };
+		CA31B4291954916D006591E0 /* monsterDead4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4011954916D006591E0 /* monsterDead4.wav */; };
+		CA31B42A1954916D006591E0 /* monsterDead5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4021954916D006591E0 /* monsterDead5.wav */; };
+		CA31B42B1954916D006591E0 /* monsterDead6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4031954916D006591E0 /* monsterDead6.wav */; };
+		CA31B42C1954916D006591E0 /* orcDead.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4041954916D006591E0 /* orcDead.wav */; };
+		CA31B42D1954916D006591E0 /* perWaveVictory.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4051954916D006591E0 /* perWaveVictory.wav */; };
+		CA31B42E1954916D006591E0 /* thunderSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4061954916D006591E0 /* thunderSound.wav */; };
+		CA31B42F1954916D006591E0 /* tower1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4071954916D006591E0 /* tower1.wav */; };
+		CA31B4301954916D006591E0 /* tower2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4081954916D006591E0 /* tower2.wav */; };
+		CA31B4311954916D006591E0 /* tower3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4091954916D006591E0 /* tower3.wav */; };
+		CA31B4321954916D006591E0 /* tower4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B40A1954916D006591E0 /* tower4.wav */; };
+		CA31B4331954916D006591E0 /* tower5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B40B1954916D006591E0 /* tower5.wav */; };
+		CA31B4341954916D006591E0 /* tower6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B40C1954916D006591E0 /* tower6.wav */; };
+		CA31B4351954916D006591E0 /* tower7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B40D1954916D006591E0 /* tower7.wav */; };
+		CA31B4361954916D006591E0 /* triumf.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B40E1954916D006591E0 /* triumf.wav */; };
+		CA31B4371954916D006591E0 /* upgrade.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B40F1954916D006591E0 /* upgrade.wav */; };
+		CA31B4381954916D006591E0 /* wizardDead.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4101954916D006591E0 /* wizardDead.wav */; };
+		CA31B4391954916D006591E0 /* wolfDead.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B4111954916D006591E0 /* wolfDead.wav */; };
+		CA31B44019549198006591E0 /* battle1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B43A19549198006591E0 /* battle1.wav */; };
+		CA31B44119549198006591E0 /* battle2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B43B19549198006591E0 /* battle2.wav */; };
+		CA31B44219549198006591E0 /* battle3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B43C19549198006591E0 /* battle3.wav */; };
+		CA31B44319549198006591E0 /* battle4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B43D19549198006591E0 /* battle4.wav */; };
+		CA31B44419549198006591E0 /* battle5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B43E19549198006591E0 /* battle5.wav */; };
+		CA31B44519549198006591E0 /* battle6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CA31B43F19549198006591E0 /* battle6.wav */; };
 		CA9A7F5A1949E5AC000A89DE /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA9A7F581949E5AC000A89DE /* GameScene.cpp */; };
 		CA9A7F5D1949EB3E000A89DE /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA9A7F5B1949EB3E000A89DE /* MenuScene.cpp */; };
 		CA9A7F601949EB54000A89DE /* SettingsScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA9A7F5E1949EB54000A89DE /* SettingsScene.cpp */; };
@@ -738,6 +839,111 @@
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CA31B37C19549121006591E0 /* 003-Attack01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "003-Attack01.png"; path = "../../../../../../working/FirstDefenceGame/AA/Resources/003-Attack01.png"; sourceTree = "<group>"; };
+		CA31B37D19549121006591E0 /* aim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aim.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/aim.png; sourceTree = "<group>"; };
+		CA31B37E19549121006591E0 /* attac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attac.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/attac.png; sourceTree = "<group>"; };
+		CA31B37F19549121006591E0 /* bullet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet1.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/bullet1.png; sourceTree = "<group>"; };
+		CA31B38019549121006591E0 /* bullet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet2.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/bullet2.png; sourceTree = "<group>"; };
+		CA31B38119549121006591E0 /* buttlet_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttlet_new.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/buttlet_new.png; sourceTree = "<group>"; };
+		CA31B38219549121006591E0 /* button_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_hl.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/button_hl.png; sourceTree = "<group>"; };
+		CA31B38319549121006591E0 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/button.png; sourceTree = "<group>"; };
+		CA31B38419549121006591E0 /* CannonTurret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CannonTurret.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/CannonTurret.png; sourceTree = "<group>"; };
+		CA31B38519549121006591E0 /* choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/choose.png; sourceTree = "<group>"; };
+		CA31B38619549121006591E0 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseNormal.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/CloseNormal.png; sourceTree = "<group>"; };
+		CA31B38719549121006591E0 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CloseSelected.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/CloseSelected.png; sourceTree = "<group>"; };
+		CA31B38819549121006591E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Default.png; sourceTree = "<group>"; };
+		CA31B38919549121006591E0 /* effect1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = effect1.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/effect1.png; sourceTree = "<group>"; };
+		CA31B38A19549121006591E0 /* effect2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = effect2.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/effect2.png; sourceTree = "<group>"; };
+		CA31B38B19549121006591E0 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/enemy.png; sourceTree = "<group>"; };
+		CA31B38C19549121006591E0 /* Enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy1.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Enemy1.png; sourceTree = "<group>"; };
+		CA31B38D19549121006591E0 /* Enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy2.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Enemy2.png; sourceTree = "<group>"; };
+		CA31B38E19549121006591E0 /* Enemy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy3.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Enemy3.png; sourceTree = "<group>"; };
+		CA31B38F19549121006591E0 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/fire.png; sourceTree = "<group>"; };
+		CA31B39019549121006591E0 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "../../../../../../working/FirstDefenceGame/AA/Resources/fps_images-hd.png"; sourceTree = "<group>"; };
+		CA31B39119549121006591E0 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "../../../../../../working/FirstDefenceGame/AA/Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
+		CA31B39219549121006591E0 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/fps_images.png; sourceTree = "<group>"; };
+		CA31B39319549121006591E0 /* FreezeTurret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FreezeTurret.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/FreezeTurret.png; sourceTree = "<group>"; };
+		CA31B39419549121006591E0 /* health_bar_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = health_bar_green.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/health_bar_green.png; sourceTree = "<group>"; };
+		CA31B39519549121006591E0 /* health_bar_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = health_bar_red.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/health_bar_red.png; sourceTree = "<group>"; };
+		CA31B39619549121006591E0 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HelloWorld.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/HelloWorld.png; sourceTree = "<group>"; };
+		CA31B39719549121006591E0 /* hero_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_dead.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hero_dead.png; sourceTree = "<group>"; };
+		CA31B39819549121006591E0 /* hero_fast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_fast.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hero_fast.png; sourceTree = "<group>"; };
+		CA31B39919549121006591E0 /* hero_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_light.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hero_light.png; sourceTree = "<group>"; };
+		CA31B39A19549121006591E0 /* hero_magic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_magic.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hero_magic.png; sourceTree = "<group>"; };
+		CA31B39B19549121006591E0 /* hero_phy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero_phy.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hero_phy.png; sourceTree = "<group>"; };
+		CA31B39C19549121006591E0 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hero.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hero.png; sourceTree = "<group>"; };
+		CA31B39D19549121006591E0 /* hud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hud.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/hud.png; sourceTree = "<group>"; };
+		CA31B39E19549121006591E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Icon.png; sourceTree = "<group>"; };
+		CA31B39F19549121006591E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Info.plist; sourceTree = "<group>"; };
+		CA31B3A019549121006591E0 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = ../../../../../../working/FirstDefenceGame/AA/Resources/iTunesArtwork; sourceTree = "<group>"; };
+		CA31B3A119549121006591E0 /* loadImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loadImg.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/loadImg.png; sourceTree = "<group>"; };
+		CA31B3A219549121006591E0 /* MachineGunTurret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MachineGunTurret.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/MachineGunTurret.png; sourceTree = "<group>"; };
+		CA31B3A319549121006591E0 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = map.jpg; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map.jpg; sourceTree = "<group>"; };
+		CA31B3A419549121006591E0 /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map1.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map1.png; sourceTree = "<group>"; };
+		CA31B3A519549121006591E0 /* map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map2.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map2.png; sourceTree = "<group>"; };
+		CA31B3A619549121006591E0 /* map3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = map3.jpg; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map3.jpg; sourceTree = "<group>"; };
+		CA31B3A719549121006591E0 /* map3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map3.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map3.png; sourceTree = "<group>"; };
+		CA31B3A819549121006591E0 /* map4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map4.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map4.png; sourceTree = "<group>"; };
+		CA31B3A919549121006591E0 /* map5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map5.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map5.png; sourceTree = "<group>"; };
+		CA31B3AA19549121006591E0 /* map6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map6.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/map6.png; sourceTree = "<group>"; };
+		CA31B3AB19549121006591E0 /* popback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popback.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/popback.png; sourceTree = "<group>"; };
+		CA31B3AC19549121006591E0 /* Range.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Range.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/Range.png; sourceTree = "<group>"; };
+		CA31B3AD19549121006591E0 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rocket.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/rocket.png; sourceTree = "<group>"; };
+		CA31B3AE19549121006591E0 /* stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stars.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/stars.png; sourceTree = "<group>"; };
+		CA31B3AF19549121006591E0 /* TileMap0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TileMap0.tmx; path = ../../../../../../working/FirstDefenceGame/AA/Resources/TileMap0.tmx; sourceTree = "<group>"; };
+		CA31B3B019549121006591E0 /* TileMap1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = TileMap1.tmx; path = ../../../../../../working/FirstDefenceGame/AA/Resources/TileMap1.tmx; sourceTree = "<group>"; };
+		CA31B3B119549121006591E0 /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tmw_desert_spacing.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/tmw_desert_spacing.png; sourceTree = "<group>"; };
+		CA31B3B219549121006591E0 /* ui_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ui_frame.png; path = ../../../../../../working/FirstDefenceGame/AA/Resources/ui_frame.png; sourceTree = "<group>"; };
+		CA31B3EA1954916D006591E0 /* abstacleDestroy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = abstacleDestroy.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/abstacleDestroy.wav; sourceTree = "<group>"; };
+		CA31B3EB1954916D006591E0 /* arrowTower.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = arrowTower.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/arrowTower.wav; sourceTree = "<group>"; };
+		CA31B3EC1954916D006591E0 /* backSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = backSound.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/backSound.wav; sourceTree = "<group>"; };
+		CA31B3ED1954916D006591E0 /* birdDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = birdDeath.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/birdDeath.wav; sourceTree = "<group>"; };
+		CA31B3EE1954916D006591E0 /* CaptainDead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CaptainDead.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/CaptainDead.wav; sourceTree = "<group>"; };
+		CA31B3EF1954916D006591E0 /* castleHurtSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = castleHurtSound.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/castleHurtSound.wav; sourceTree = "<group>"; };
+		CA31B3F01954916D006591E0 /* castleHurtSound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = castleHurtSound2.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/castleHurtSound2.wav; sourceTree = "<group>"; };
+		CA31B3F11954916D006591E0 /* chooseOB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chooseOB.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/chooseOB.wav; sourceTree = "<group>"; };
+		CA31B3F21954916D006591E0 /* confirm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = confirm.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/confirm.wav; sourceTree = "<group>"; };
+		CA31B3F31954916D006591E0 /* doom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = doom.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/doom.wav; sourceTree = "<group>"; };
+		CA31B3F41954916D006591E0 /* flameMagic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flameMagic.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/flameMagic.wav; sourceTree = "<group>"; };
+		CA31B3F51954916D006591E0 /* freeDreadMagic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = freeDreadMagic.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/freeDreadMagic.wav; sourceTree = "<group>"; };
+		CA31B3F61954916D006591E0 /* freeflame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = freeflame.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/freeflame.wav; sourceTree = "<group>"; };
+		CA31B3F71954916D006591E0 /* frostMagic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = frostMagic.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/frostMagic.wav; sourceTree = "<group>"; };
+		CA31B3F81954916D006591E0 /* gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gameover.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/gameover.wav; sourceTree = "<group>"; };
+		CA31B3F91954916D006591E0 /* getgold.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = getgold.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/getgold.wav; sourceTree = "<group>"; };
+		CA31B3FA1954916D006591E0 /* giantDead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = giantDead.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/giantDead.wav; sourceTree = "<group>"; };
+		CA31B3FB1954916D006591E0 /* iceMagicSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = iceMagicSound.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/iceMagicSound.wav; sourceTree = "<group>"; };
+		CA31B3FC1954916D006591E0 /* invadeCastleSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = invadeCastleSound.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/invadeCastleSound.wav; sourceTree = "<group>"; };
+		CA31B3FD1954916D006591E0 /* magicElement.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = magicElement.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/magicElement.wav; sourceTree = "<group>"; };
+		CA31B3FE1954916D006591E0 /* monsterDead1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monsterDead1.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/monsterDead1.wav; sourceTree = "<group>"; };
+		CA31B3FF1954916D006591E0 /* monsterDead2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monsterDead2.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/monsterDead2.wav; sourceTree = "<group>"; };
+		CA31B4001954916D006591E0 /* monsterDead3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monsterDead3.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/monsterDead3.wav; sourceTree = "<group>"; };
+		CA31B4011954916D006591E0 /* monsterDead4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monsterDead4.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/monsterDead4.wav; sourceTree = "<group>"; };
+		CA31B4021954916D006591E0 /* monsterDead5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monsterDead5.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/monsterDead5.wav; sourceTree = "<group>"; };
+		CA31B4031954916D006591E0 /* monsterDead6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = monsterDead6.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/monsterDead6.wav; sourceTree = "<group>"; };
+		CA31B4041954916D006591E0 /* orcDead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = orcDead.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/orcDead.wav; sourceTree = "<group>"; };
+		CA31B4051954916D006591E0 /* perWaveVictory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = perWaveVictory.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/perWaveVictory.wav; sourceTree = "<group>"; };
+		CA31B4061954916D006591E0 /* thunderSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = thunderSound.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/thunderSound.wav; sourceTree = "<group>"; };
+		CA31B4071954916D006591E0 /* tower1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower1.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower1.wav; sourceTree = "<group>"; };
+		CA31B4081954916D006591E0 /* tower2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower2.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower2.wav; sourceTree = "<group>"; };
+		CA31B4091954916D006591E0 /* tower3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower3.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower3.wav; sourceTree = "<group>"; };
+		CA31B40A1954916D006591E0 /* tower4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower4.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower4.wav; sourceTree = "<group>"; };
+		CA31B40B1954916D006591E0 /* tower5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower5.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower5.wav; sourceTree = "<group>"; };
+		CA31B40C1954916D006591E0 /* tower6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower6.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower6.wav; sourceTree = "<group>"; };
+		CA31B40D1954916D006591E0 /* tower7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tower7.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/tower7.wav; sourceTree = "<group>"; };
+		CA31B40E1954916D006591E0 /* triumf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = triumf.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/triumf.wav; sourceTree = "<group>"; };
+		CA31B40F1954916D006591E0 /* upgrade.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = upgrade.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/upgrade.wav; sourceTree = "<group>"; };
+		CA31B4101954916D006591E0 /* wizardDead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wizardDead.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/wizardDead.wav; sourceTree = "<group>"; };
+		CA31B4111954916D006591E0 /* wolfDead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wolfDead.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/SOUND/wolfDead.wav; sourceTree = "<group>"; };
+		CA31B43A19549198006591E0 /* battle1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = battle1.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/BGM/battle1.wav; sourceTree = "<group>"; };
+		CA31B43B19549198006591E0 /* battle2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = battle2.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/BGM/battle2.wav; sourceTree = "<group>"; };
+		CA31B43C19549198006591E0 /* battle3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = battle3.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/BGM/battle3.wav; sourceTree = "<group>"; };
+		CA31B43D19549198006591E0 /* battle4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = battle4.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/BGM/battle4.wav; sourceTree = "<group>"; };
+		CA31B43E19549198006591E0 /* battle5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = battle5.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/BGM/battle5.wav; sourceTree = "<group>"; };
+		CA31B43F19549198006591E0 /* battle6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = battle6.wav; path = ../../../../../../working/FirstDefenceGame/AA/sounds/BGM/battle6.wav; sourceTree = "<group>"; };
+		CA31B446195491CC006591E0 /* FRAMDCN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = FRAMDCN.TTF; path = ../../../../../../working/FirstDefenceGame/AA/Font/FRAMDCN.TTF; sourceTree = "<group>"; };
+		CA31B447195491CC006591E0 /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = GOTHIC.TTF; path = ../../../../../../working/FirstDefenceGame/AA/Font/GOTHIC.TTF; sourceTree = "<group>"; };
+		CA31B448195491CC006591E0 /* ITCBLKAD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = ITCBLKAD.TTF; path = ../../../../../../working/FirstDefenceGame/AA/Font/ITCBLKAD.TTF; sourceTree = "<group>"; };
+		CA31B449195491CC006591E0 /* STHUPO.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = STHUPO.TTF; path = ../../../../../../working/FirstDefenceGame/AA/Font/STHUPO.TTF; sourceTree = "<group>"; };
 		CA9A7F581949E5AC000A89DE /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
 		CA9A7F591949E5AC000A89DE /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
 		CA9A7F5B1949EB3E000A89DE /* MenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MenuScene.cpp; path = ../Classes/MenuScene.cpp; sourceTree = "<group>"; };
@@ -1762,6 +1968,111 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA31B37C19549121006591E0 /* 003-Attack01.png */,
+				CA31B37D19549121006591E0 /* aim.png */,
+				CA31B446195491CC006591E0 /* FRAMDCN.TTF */,
+				CA31B447195491CC006591E0 /* GOTHIC.TTF */,
+				CA31B448195491CC006591E0 /* ITCBLKAD.TTF */,
+				CA31B449195491CC006591E0 /* STHUPO.TTF */,
+				CA31B3EA1954916D006591E0 /* abstacleDestroy.wav */,
+				CA31B3EB1954916D006591E0 /* arrowTower.wav */,
+				CA31B3EC1954916D006591E0 /* backSound.wav */,
+				CA31B3ED1954916D006591E0 /* birdDeath.wav */,
+				CA31B3EE1954916D006591E0 /* CaptainDead.wav */,
+				CA31B43A19549198006591E0 /* battle1.wav */,
+				CA31B43B19549198006591E0 /* battle2.wav */,
+				CA31B43C19549198006591E0 /* battle3.wav */,
+				CA31B43D19549198006591E0 /* battle4.wav */,
+				CA31B43E19549198006591E0 /* battle5.wav */,
+				CA31B43F19549198006591E0 /* battle6.wav */,
+				CA31B3EF1954916D006591E0 /* castleHurtSound.wav */,
+				CA31B3F01954916D006591E0 /* castleHurtSound2.wav */,
+				CA31B3F11954916D006591E0 /* chooseOB.wav */,
+				CA31B3F21954916D006591E0 /* confirm.wav */,
+				CA31B3F31954916D006591E0 /* doom.wav */,
+				CA31B3F41954916D006591E0 /* flameMagic.wav */,
+				CA31B3F51954916D006591E0 /* freeDreadMagic.wav */,
+				CA31B3F61954916D006591E0 /* freeflame.wav */,
+				CA31B3F71954916D006591E0 /* frostMagic.wav */,
+				CA31B3F81954916D006591E0 /* gameover.wav */,
+				CA31B3F91954916D006591E0 /* getgold.wav */,
+				CA31B3FA1954916D006591E0 /* giantDead.wav */,
+				CA31B3FB1954916D006591E0 /* iceMagicSound.wav */,
+				CA31B3FC1954916D006591E0 /* invadeCastleSound.wav */,
+				CA31B3FD1954916D006591E0 /* magicElement.wav */,
+				CA31B3FE1954916D006591E0 /* monsterDead1.wav */,
+				CA31B3FF1954916D006591E0 /* monsterDead2.wav */,
+				CA31B4001954916D006591E0 /* monsterDead3.wav */,
+				CA31B4011954916D006591E0 /* monsterDead4.wav */,
+				CA31B4021954916D006591E0 /* monsterDead5.wav */,
+				CA31B4031954916D006591E0 /* monsterDead6.wav */,
+				CA31B4041954916D006591E0 /* orcDead.wav */,
+				CA31B4051954916D006591E0 /* perWaveVictory.wav */,
+				CA31B4061954916D006591E0 /* thunderSound.wav */,
+				CA31B4071954916D006591E0 /* tower1.wav */,
+				CA31B4081954916D006591E0 /* tower2.wav */,
+				CA31B4091954916D006591E0 /* tower3.wav */,
+				CA31B40A1954916D006591E0 /* tower4.wav */,
+				CA31B40B1954916D006591E0 /* tower5.wav */,
+				CA31B40C1954916D006591E0 /* tower6.wav */,
+				CA31B40D1954916D006591E0 /* tower7.wav */,
+				CA31B40E1954916D006591E0 /* triumf.wav */,
+				CA31B40F1954916D006591E0 /* upgrade.wav */,
+				CA31B4101954916D006591E0 /* wizardDead.wav */,
+				CA31B4111954916D006591E0 /* wolfDead.wav */,
+				CA31B37E19549121006591E0 /* attac.png */,
+				CA31B37F19549121006591E0 /* bullet1.png */,
+				CA31B38019549121006591E0 /* bullet2.png */,
+				CA31B38119549121006591E0 /* buttlet_new.png */,
+				CA31B38219549121006591E0 /* button_hl.png */,
+				CA31B38319549121006591E0 /* button.png */,
+				CA31B38419549121006591E0 /* CannonTurret.png */,
+				CA31B38519549121006591E0 /* choose.png */,
+				CA31B38619549121006591E0 /* CloseNormal.png */,
+				CA31B38719549121006591E0 /* CloseSelected.png */,
+				CA31B38819549121006591E0 /* Default.png */,
+				CA31B38919549121006591E0 /* effect1.png */,
+				CA31B38A19549121006591E0 /* effect2.png */,
+				CA31B38B19549121006591E0 /* enemy.png */,
+				CA31B38C19549121006591E0 /* Enemy1.png */,
+				CA31B38D19549121006591E0 /* Enemy2.png */,
+				CA31B38E19549121006591E0 /* Enemy3.png */,
+				CA31B38F19549121006591E0 /* fire.png */,
+				CA31B39019549121006591E0 /* fps_images-hd.png */,
+				CA31B39119549121006591E0 /* fps_images-ipadhd.png */,
+				CA31B39219549121006591E0 /* fps_images.png */,
+				CA31B39319549121006591E0 /* FreezeTurret.png */,
+				CA31B39419549121006591E0 /* health_bar_green.png */,
+				CA31B39519549121006591E0 /* health_bar_red.png */,
+				CA31B39619549121006591E0 /* HelloWorld.png */,
+				CA31B39719549121006591E0 /* hero_dead.png */,
+				CA31B39819549121006591E0 /* hero_fast.png */,
+				CA31B39919549121006591E0 /* hero_light.png */,
+				CA31B39A19549121006591E0 /* hero_magic.png */,
+				CA31B39B19549121006591E0 /* hero_phy.png */,
+				CA31B39C19549121006591E0 /* hero.png */,
+				CA31B39D19549121006591E0 /* hud.png */,
+				CA31B39E19549121006591E0 /* Icon.png */,
+				CA31B39F19549121006591E0 /* Info.plist */,
+				CA31B3A019549121006591E0 /* iTunesArtwork */,
+				CA31B3A119549121006591E0 /* loadImg.png */,
+				CA31B3A219549121006591E0 /* MachineGunTurret.png */,
+				CA31B3A319549121006591E0 /* map.jpg */,
+				CA31B3A419549121006591E0 /* map1.png */,
+				CA31B3A519549121006591E0 /* map2.png */,
+				CA31B3A619549121006591E0 /* map3.jpg */,
+				CA31B3A719549121006591E0 /* map3.png */,
+				CA31B3A819549121006591E0 /* map4.png */,
+				CA31B3A919549121006591E0 /* map5.png */,
+				CA31B3AA19549121006591E0 /* map6.png */,
+				CA31B3AB19549121006591E0 /* popback.png */,
+				CA31B3AC19549121006591E0 /* Range.png */,
+				CA31B3AD19549121006591E0 /* rocket.png */,
+				CA31B3AE19549121006591E0 /* stars.png */,
+				CA31B3AF19549121006591E0 /* TileMap0.tmx */,
+				CA31B3B019549121006591E0 /* TileMap1.tmx */,
+				CA31B3B119549121006591E0 /* tmw_desert_spacing.png */,
+				CA31B3B219549121006591E0 /* ui_frame.png */,
 				CABB79FD195205E300C56DC3 /* click.wav */,
 				CABB7A0119520CDA00C56DC3 /* music.ogg */,
 				CABB79FE195205E300C56DC3 /* music.mp3 */,
@@ -1862,32 +2173,133 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA31B41D1954916D006591E0 /* freeDreadMagic.wav in Resources */,
 				CA9A7F78194A0603000A89DE /* HelloWorld.png in Resources */,
+				CA31B44019549198006591E0 /* battle1.wav in Resources */,
+				CA31B41B1954916D006591E0 /* doom.wav in Resources */,
+				CA31B3CC19549121006591E0 /* health_bar_red.png in Resources */,
+				CA31B3B419549121006591E0 /* aim.png in Resources */,
+				CA31B4261954916D006591E0 /* monsterDead1.wav in Resources */,
+				CA31B3C219549121006591E0 /* enemy.png in Resources */,
+				CA31B3C619549121006591E0 /* fire.png in Resources */,
 				D4EF949A15BD2D8B00D803EB /* Icon-57.png in Resources */,
+				CA31B4381954916D006591E0 /* wizardDead.wav in Resources */,
 				CABB79FB1951FC3F00C56DC3 /* settingbg.jpg in Resources */,
+				CA31B3CE19549121006591E0 /* hero_dead.png in Resources */,
+				CA31B41E1954916D006591E0 /* freeflame.wav in Resources */,
+				CA31B3E319549121006591E0 /* Range.png in Resources */,
+				CA31B3BB19549121006591E0 /* CannonTurret.png in Resources */,
+				CA31B44419549198006591E0 /* battle5.wav in Resources */,
 				CABB79F71951FC3F00C56DC3 /* btnPlay.png in Resources */,
+				CA31B41A1954916D006591E0 /* confirm.wav in Resources */,
+				CA31B3CD19549121006591E0 /* HelloWorld.png in Resources */,
+				CA31B4391954916D006591E0 /* wolfDead.wav in Resources */,
+				CA31B4361954916D006591E0 /* triumf.wav in Resources */,
+				CA31B42C1954916D006591E0 /* orcDead.wav in Resources */,
+				CA31B4351954916D006591E0 /* tower7.wav in Resources */,
 				CABB79F41951FC3F00C56DC3 /* bgMenu.jpg in Resources */,
+				CA31B3E219549121006591E0 /* popback.png in Resources */,
+				CA31B4151954916D006591E0 /* birdDeath.wav in Resources */,
+				CA31B3D919549121006591E0 /* MachineGunTurret.png in Resources */,
+				CA31B3BF19549121006591E0 /* Default.png in Resources */,
+				CA31B3C719549121006591E0 /* fps_images-hd.png in Resources */,
+				CA31B3E419549121006591E0 /* rocket.png in Resources */,
+				CA31B3BD19549121006591E0 /* CloseNormal.png in Resources */,
+				CA31B44119549198006591E0 /* battle2.wav in Resources */,
+				CA31B4211954916D006591E0 /* getgold.wav in Resources */,
 				D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */,
+				CA31B42A1954916D006591E0 /* monsterDead5.wav in Resources */,
+				CA31B3D119549121006591E0 /* hero_magic.png in Resources */,
+				CA31B3C819549121006591E0 /* fps_images-ipadhd.png in Resources */,
+				CA31B3BA19549121006591E0 /* button.png in Resources */,
+				CA31B3D519549121006591E0 /* Icon.png in Resources */,
+				CA31B4321954916D006591E0 /* tower4.wav in Resources */,
 				D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */,
+				CA31B4201954916D006591E0 /* gameover.wav in Resources */,
+				CA31B3CA19549121006591E0 /* FreezeTurret.png in Resources */,
+				CA31B3D219549121006591E0 /* hero_phy.png in Resources */,
+				CA31B3BE19549121006591E0 /* CloseSelected.png in Resources */,
+				CA31B3C519549121006591E0 /* Enemy3.png in Resources */,
 				CABB79FC1951FC3F00C56DC3 /* splash.jpg in Resources */,
+				CA31B4341954916D006591E0 /* tower6.wav in Resources */,
+				CA31B3B519549121006591E0 /* attac.png in Resources */,
+				CA31B44519549198006591E0 /* battle6.wav in Resources */,
+				CA31B4301954916D006591E0 /* tower2.wav in Resources */,
+				CA31B3B719549121006591E0 /* bullet2.png in Resources */,
+				CA31B4231954916D006591E0 /* iceMagicSound.wav in Resources */,
+				CA31B3C419549121006591E0 /* Enemy2.png in Resources */,
+				CA31B3DB19549121006591E0 /* map1.png in Resources */,
+				CA31B4371954916D006591E0 /* upgrade.wav in Resources */,
 				CA9A7F6E1949F4C0000A89DE /* menu.png in Resources */,
+				CA31B3D619549121006591E0 /* Info.plist in Resources */,
 				CA9A7F6F1949F4C0000A89DE /* menuscene.png in Resources */,
+				CA31B3E519549121006591E0 /* stars.png in Resources */,
+				CA31B4291954916D006591E0 /* monsterDead4.wav in Resources */,
 				D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */,
+				CA31B3C119549121006591E0 /* effect2.png in Resources */,
+				CA31B4331954916D006591E0 /* tower5.wav in Resources */,
+				CA31B4251954916D006591E0 /* magicElement.wav in Resources */,
+				CA31B3D019549121006591E0 /* hero_light.png in Resources */,
+				CA31B42F1954916D006591E0 /* tower1.wav in Resources */,
+				CA31B44219549198006591E0 /* battle3.wav in Resources */,
 				CABB79F81951FC3F00C56DC3 /* btnSetting.png in Resources */,
+				CA31B4121954916D006591E0 /* abstacleDestroy.wav in Resources */,
+				CA31B4281954916D006591E0 /* monsterDead3.wav in Resources */,
+				CA31B3E019549121006591E0 /* map5.png in Resources */,
+				CA31B3E819549121006591E0 /* tmw_desert_spacing.png in Resources */,
+				CA31B3B819549121006591E0 /* buttlet_new.png in Resources */,
+				CA31B3E919549121006591E0 /* ui_frame.png in Resources */,
+				CA31B3BC19549121006591E0 /* choose.png in Resources */,
+				CA31B4161954916D006591E0 /* CaptainDead.wav in Resources */,
+				CA31B3DD19549121006591E0 /* map3.jpg in Resources */,
+				CA31B3CB19549121006591E0 /* health_bar_green.png in Resources */,
+				CA31B3D319549121006591E0 /* hero.png in Resources */,
+				CA31B3DF19549121006591E0 /* map4.png in Resources */,
+				CA31B4311954916D006591E0 /* tower3.wav in Resources */,
+				CA31B44319549198006591E0 /* battle4.wav in Resources */,
+				CA31B4241954916D006591E0 /* invadeCastleSound.wav in Resources */,
+				CA31B41F1954916D006591E0 /* frostMagic.wav in Resources */,
+				CA31B42E1954916D006591E0 /* thunderSound.wav in Resources */,
+				CA31B3B919549121006591E0 /* button_hl.png in Resources */,
 				CABB79F51951FC3F00C56DC3 /* btnBack.png in Resources */,
+				CA31B3E119549121006591E0 /* map6.png in Resources */,
 				D41A0AD1160F154A004552AE /* Default-568h@2x.png in Resources */,
 				CABB79FA1951FC3F00C56DC3 /* menu.jpg in Resources */,
+				CA31B3C919549121006591E0 /* fps_images.png in Resources */,
 				D446FD6E16102124000ADA7B /* Default@2x.png in Resources */,
+				CA31B3C319549121006591E0 /* Enemy1.png in Resources */,
+				CA31B3E619549121006591E0 /* TileMap0.tmx in Resources */,
 				CABB79F61951FC3F00C56DC3 /* btnHelp.png in Resources */,
+				CA31B3C019549121006591E0 /* effect1.png in Resources */,
+				CA31B3B619549121006591E0 /* bullet1.png in Resources */,
+				CA31B3B319549121006591E0 /* 003-Attack01.png in Resources */,
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				CABB79F91951FC3F00C56DC3 /* helpbg.jpg in Resources */,
+				CA31B42D1954916D006591E0 /* perWaveVictory.wav in Resources */,
+				CA31B3D419549121006591E0 /* hud.png in Resources */,
 				CA9A7F711949F4C0000A89DE /* settings_scene.png in Resources */,
+				CA31B4221954916D006591E0 /* giantDead.wav in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
+				CA31B4131954916D006591E0 /* arrowTower.wav in Resources */,
+				CA31B3CF19549121006591E0 /* hero_fast.png in Resources */,
+				CA31B41C1954916D006591E0 /* flameMagic.wav in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
+				CA31B3D719549121006591E0 /* iTunesArtwork in Resources */,
+				CA31B3DA19549121006591E0 /* map.jpg in Resources */,
+				CA31B3D819549121006591E0 /* loadImg.png in Resources */,
+				CA31B3DC19549121006591E0 /* map2.png in Resources */,
+				CA31B4271954916D006591E0 /* monsterDead2.wav in Resources */,
+				CA31B4171954916D006591E0 /* castleHurtSound.wav in Resources */,
+				CA31B3E719549121006591E0 /* TileMap1.tmx in Resources */,
+				CA31B4191954916D006591E0 /* chooseOB.wav in Resources */,
 				CABB7A00195205E300C56DC3 /* music.mp3 in Resources */,
+				CA31B4181954916D006591E0 /* castleHurtSound2.wav in Resources */,
+				CA31B3DE19549121006591E0 /* map3.png in Resources */,
 				CABB79FF195205E300C56DC3 /* click.wav in Resources */,
 				CA9A7F6D1949F4C0000A89DE /* helpscene.png in Resources */,
 				CA9A7F7A194A06D1000A89DE /* Default.png in Resources */,
+				CA31B4141954916D006591E0 /* backSound.wav in Resources */,
+				CA31B42B1954916D006591E0 /* monsterDead6.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
